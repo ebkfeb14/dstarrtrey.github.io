@@ -13,3 +13,6 @@ function getVote(int) {
   xmlhttp.open("GET","poll_vote.php?vote="+int,true);
   xmlhttp.send();
 }
+function success(){
+  document.getElementById('success').innerHTML="You re  vote has been submitted successful";
+}
