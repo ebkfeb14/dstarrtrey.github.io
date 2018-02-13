@@ -1,30 +1,108 @@
+img{
+  width: 250px; 
+}
+.long-img{
+ 
+  margin-left:0;
+}
+#bio{
+  font-family:Cambria;
+  font-size: 20px;
+  padding-top:13%;
+  padding-bottom:1%;
+}
+#portfolio{
+  margin-left:2%;
+  margin-right:2%;
+  padding-top:3%;
+
+}
+.row{
+  padding-bottom:2%;
+}
+.col-xs-3{
+   float:none;
+   display:inline-block;
+   vertical-align:middle;
+   margin-right:-4px;
+  
+   
+}
+.navigation{
+  position: fixed;
+  background-color:#9abff9;
+  display: inline;
+  width:100%;
+  z-index:1;
+}
+hr{
+  padding:0;
+  margin:0;
+  border: 1px solid gray;
+}
+
+.nav{
+  display: inline;
+  float:right;
+  font-size:40px;
+  text-decoration:none;
+  color:black;
+  margin-left:1%
+}
+.nav:hover{
+  color:white;
+}
+.header{
+    width:100%;
+    text-align: left;
+}
+.nav
+{
+  display: inline-block;
+  
+}
+span{
+  font-size:50px;
+  
+}
+#profile{
+  float:left;
+  height:110px;
+  width:auto;
+  margin-top:.6%;
+  margin-left:1.5%;
+  margin-right: 1.5%;
+  border:5px solid #021a40;
+  border-radius: 20%;
+}
+.but{
+  display: flex; 
+  justify-content: center;
+  margin-left:.5%;
+  margin-right:.5%;
+}
+.portfolio{border:4px solid #021a40;
+  border-radius: 2.5%;
+  margin-left:0.5%;
+  margin-right:0.5;
+}
+hr{
+  padding-bottom:.003%;
+  background-color:gray;
+  
+}
+.email{
+  font-size:20px;
+  font-style:italic;
+  text-decoration:underline;
+  margin-left:20%;
+}
+#contact{
+  padding-top:5%;
+}
 body{
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  color: blue;
-  font-weight: bold;
+  background-color: #FAFEFF;
+}
+.contactsub{
   text-align:center;
-  background-image: url('https://n6-img-fp.akamaized.net/free-vector/colorful-watercolor-triangles-pattern_23-2147662863.jpg?size=338&ext=jpg');
-}
-#cool{
-  position:absolute;
-  left: 8%;
-  top:29%;
-  width: 19%;
-  transform: rotate(69deg);
-}
-#nice{
-  position:absolute;
-  left:69%;
-  background-color:#2196F3; 
-  top:7%;
-  width: 15%;
-}
-p{
-  font-size: 18px;
-}
-h5{
-  font-size: 26px;
-}
-h1{
-  font-size: 40px;
 }
